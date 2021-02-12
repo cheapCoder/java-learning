@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 class HelloJava {
   public static void main(String[] args) {
@@ -88,5 +89,29 @@ class HelloJava {
     // int i = (int)s;
     // System.out.println(c);
 
+    // boolean b = true;
+    // String s = "what";
+    // switch (s) {
+    // case "what": {
+    // System.out.println("true");
+    // break;
+    // }
+    // case "new": {
+    // System.out.println("new");
+    // break;
+    // }
+    // }
+
+    // int sum;
+    // for (int i = 0; true;i++) {
+    // sum = 2;
+    // }
+    // System.out.println(sum);
+
+    // Scanner scanner = new Scanner(System.in);
+    // System.out.println(scanner.nextLine());
+    // scanner.close();
+
+    System.out.println(System.currentTimeMillis());
   }
 }
