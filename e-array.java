@@ -9,7 +9,7 @@ class array4 {
     // // char[] arr2 = new char[4];
     // // boolean[] arr2 = new boolean[4];
     // String[] arr2 = new String[4];
-    
+
     // NOTE:遍历
     // for (int i = 0; i < arr2.length; i++) {
     // System.out.println(arr2[i]);
@@ -21,5 +21,18 @@ class array4 {
     // int[][] arr = { { 1, 2, 3, 4 }, { 213, 1234, 234, 5 }};
 
     // System.out.println(arr[1][1]);
+
+    // int[] arr1 = { 1, 2, 3, 4 }; // Arrays工具类
+    // int[] arr2 = { 1, 2, 3, 4 };
+    // System.out.println(arr1 == arr2);
+    // System.out.println(Arrays.equals(arr1, arr2));
+
+    // System.out.println(Arrays.toString(arr1));
+
+    String[] arr = new String[4];
+    // arr = null;
+    // System.out.println(arr[0]);
+    arr[0] = null;
+    System.out.println(arr[0].toString());
   }
 }

@@ -12,7 +12,7 @@
 
 import java.util.Scanner;
 
-public class ScannerTest {
+class ScannerTest {
   public static void main(String[] args) {
     System.out.println(100.1234 <= 100);
     Scanner scanner = new Scanner(System.in);
