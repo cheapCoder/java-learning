@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class accountRecord {
+public class AccountRecord {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
