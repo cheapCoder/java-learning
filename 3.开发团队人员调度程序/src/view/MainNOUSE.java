@@ -1,12 +1,11 @@
 package view;
 
-import domain.Employee;
 import service.Data;
 
 
-public class Main {
+public class MainNOUSE {
     public static void main(String[] args) {
-        Main.printAll();
+        MainNOUSE.printAll();
         int input;
         System.out.print("1-团队列表  2-添加团队成员  3-删除团队成员 4-退出   请选择(1-4):");
         input = MyUtility.readMenuSelection();
@@ -16,7 +15,7 @@ public class Main {
             input = MyUtility.readMenuSelection();
             switch (input) {
                 case 1: {
-                    Main.printAll();
+                    MainNOUSE.printAll();
                     break;
                 }
                 case 2: {

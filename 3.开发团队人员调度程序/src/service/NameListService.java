@@ -31,14 +31,14 @@ public class NameListService {
 
             if (employee[0] == "10") {
                 this.employees[i] = new Employee(Id, name, age, salary);
-            } else if (employee[1] == "11") {
+            } else if (employee[0] == "11") {
                 this.employees[i] = new Programmer(Id, name, age, salary, equipment);
 
-            } else if (employee[1] == "12") {
+            } else if (employee[0] == "12") {
                 double bonus = Double.parseDouble(employee[5]);
 
                 this.employees[i] = new Designer(Id, name, age, salary, bonus, equipment);
-            } else if (employee[1] == "13") {
+            } else if (employee[0] == "13") {
                 double bonus = Double.parseDouble(employee[5]);
                 int stock = Integer.parseInt(employee[6]);
                 this.employees[i] = new Architect(Id, name, age, salary, bonus, stock, equipment);
@@ -63,13 +63,3 @@ public class NameListService {
 }
 
 
-class TeamException extends Exception {
-    static final long serialVersionUID = -33875163124229948L;
-
-    public TeamException() {
-    }
-
-    public TeamException(String message) {
-        super(message);
-    }
-}

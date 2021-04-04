@@ -11,4 +11,16 @@ public class Architect extends Employee {
         this.bonus = bonus;
         this.equipment = equipment;
     }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public Equipment getEquipment() {
+        return equipment;
+    }
 }

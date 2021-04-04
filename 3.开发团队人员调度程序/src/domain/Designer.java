@@ -9,4 +9,12 @@ public class Designer extends Employee {
         this.bonus = bonus;
         this.equipment = equipment;
     }
+
+    public double getBonus() {
+        return bonus;
+    }
+
+    public Equipment getEquipment() {
+        return equipment;
+    }
 }
