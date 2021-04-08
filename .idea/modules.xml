@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/1.基本/1.基本.iml" filepath="$PROJECT_DIR$/1.基本/1.基本.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.面向对象/2.面向对象.iml" filepath="$PROJECT_DIR$/2.面向对象/2.面向对象.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.开发团队人员调度程序/3.开发团队人员调度程序.iml" filepath="$PROJECT_DIR$/3.开发团队人员调度程序/3.开发团队人员调度程序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.多线程/4.多线程.iml" filepath="$PROJECT_DIR$/4.多线程/4.多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/myJava.iml" filepath="$PROJECT_DIR$/myJava.iml" />
     </modules>
   </component>

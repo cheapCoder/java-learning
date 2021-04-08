@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="人员调度程序">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/service/TeamException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/TeamView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.基本/src/what.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.多线程/4.多线程.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.多线程/src/SubThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Architect.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Architect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Designer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Designer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/domain/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/service/NameListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/service/NameListService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/service/TeamService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/MainNOUSE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/MyUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/MyUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/TeamView.java" beforeDir="false" afterPath="$PROJECT_DIR$/3.开发团队人员调度程序/src/view/TeamView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -73,24 +70,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java资料/2_项目/Project3（开发团队人员调度软件）/3.2-参考实现/最终代码/Project03" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
-  <component name="RunManager" selected="Application.TeamView">
-    <configuration name="EcmDef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EcmDef" />
-      <module name="2.面向对象" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestThread">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.Main" />
       <module name="3.开发团队人员调度程序" />
@@ -143,6 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestThread" />
+      <module name="4.多线程" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -156,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestThread" />
         <item itemvalue="Application.TeamView" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TSUtility" />
         <item itemvalue="Application.MyUtility" />
-        <item itemvalue="Application.EcmDef" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +209,11 @@
       <workItem from="1617429340198" duration="12152000" />
       <workItem from="1617450217513" duration="2340000" />
       <workItem from="1617507775557" duration="9215000" />
-      <workItem from="1617537754608" duration="6586000" />
+      <workItem from="1617537754608" duration="6875000" />
+      <workItem from="1617545558729" duration="933000" />
+      <workItem from="1617588841197" duration="1514000" />
+      <workItem from="1617675092996" duration="3027000" />
+      <workItem from="1617698807154" duration="4041000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617442377149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="人员调度程序">
+      <created>1617544609386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617544609386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +261,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="exception" />
     <MESSAGE value="人员调度程序" />
     <option name="LAST_COMMIT_MESSAGE" value="人员调度程序" />
@@ -276,11 +285,6 @@
           <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="5" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/3.开发团队人员调度程序/src/view/MyUtility.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

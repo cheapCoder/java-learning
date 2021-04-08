@@ -33,6 +33,7 @@ public class TeamService {
             }
         }
         employee.setMemberId(location + 1);
+        employee.setStatusBusy();
         this.employees[location] = employee;
         this.total++;
         System.out.println("添加成功");
@@ -42,6 +43,7 @@ public class TeamService {
     public void removeMember(int memberId) throws TeamException, NullPointerException {
         for (int i = 0; i < this.employees.length; i++) {
             if (this.employees[i].getMemberId() == memberId) {
+                this.employees[i].setStatusFree();
                 this.employees[i] = null;
                 total--;
                 System.out.println("删除成功");

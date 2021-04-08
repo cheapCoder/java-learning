@@ -11,7 +11,7 @@ public class MyUtility {
         int input = 0;
         while (true) {
 //            try {
-                input = scanner.nextInt();
+            input = scanner.nextInt();
 //            } catch (Exception e) {
 //                System.out.print("输入错误...... 请输入1-5：");
 //            }

@@ -30,19 +30,19 @@ public class TeamView {
 
             if (employee instanceof Programmer) {       // 程序员
                 System.out.print("程序员    ");
-                System.out.print("free      ");
+                System.out.print(String.format("%-10s",employee.getStatus()));
                 System.out.print("              ");
                 System.out.print(String.format("%-10s", ((Programmer) employee).getEquipment().getDescription()));
 
             } else if (employee instanceof Designer) {
                 System.out.print("设计师    ");
-                System.out.print("free      ");
+                System.out.print(String.format("%-10s",employee.getStatus()));
                 System.out.print(String.format("%-10s", ((Designer) employee).getBonus()));
                 System.out.print("       ");
                 System.out.print(String.format("%-10s", ((Designer) employee).getEquipment().getDescription()));
             } else if (employee instanceof Architect) {
                 System.out.print("架构师    ");
-                System.out.print("free      ");
+                System.out.print(String.format("%-10s",employee.getStatus()));
                 System.out.print(String.format("%-10s", ((Architect) employee).getBonus()));
                 System.out.print(String.format("%-10s", ((Architect) employee).getStock()));
                 System.out.print(String.format("%-10s", ((Architect) employee).getEquipment().getDescription()));
@@ -55,7 +55,7 @@ public class TeamView {
 
     private void listTeam() {
         System.out.println("--------------------团队成员列表---------------------\n");
-        System.out.println("TDI/ID    姓名        年龄        工资        职位        奖金        股票");
+        System.out.println("TDI/ID\t姓名\t\t年龄\t\t工资\t\t职位\t\t奖金\t\t股票");
 
         Employee[] team = teamSvc.getTeam();
         for (int i = 0; i < team.length; i++) {
