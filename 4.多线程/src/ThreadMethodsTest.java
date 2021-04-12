@@ -33,20 +33,67 @@
 //
 //}
 
+//class MyThread implements Runnable {
+//     private int lastTickets = 100;
+//
+//    @Override
+//    public void run() {
+//        while (true) {      // 循环未退出
+////            synchronized (Windows.class) {
+//            judge();
+////            }
+//        }
+//    }
+//
+//    public synchronized void judge() {
+//        if (lastTickets > 0) {
+//            try {
+//                Thread.sleep(100);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            System.out.println(Thread.currentThread().getName() + ": " + lastTickets);
+//            lastTickets--;
+//        }
+//    }
+//}
+
+import java.util.concurrent.locks.ReentrantLock;
 
 class MyThread implements Runnable {
+    private int lastTickets = 100;
+    private ReentrantLock lock = new ReentrantLock();
+
     @Override
     public void run() {
-        for (int i = 0; i < 100; i++) {
-//            System.out.println(this.getName() + ":" + i + " Priority:" + this.getPriority());
-            System.out.println(i);
+        while (true) {
+            try {
+                lock.lock();
+                if (lastTickets > 0) {
+                    try {
+                        Thread.sleep(100);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName() + ": " + lastTickets);
+                    lastTickets--;
+                } else {
+                    break;
+                }
+            } finally {
+                lock.unlock();
+            }
         }
     }
 }
 
-class  InterfaceTest {
+
+class InterfaceTest {
     public static void main(String[] args) {
-        new Thread(new MyThread()).start();
+        MyThread t = new MyThread();
+        new Thread(t).start();
+        new Thread(t).start();
+        new Thread(t).start();
 
     }
 }

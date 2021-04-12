@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="人员调度程序">
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/ThreadMethodsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.多线程/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.多线程/src/PostMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.多线程/src/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.多线程/src/UseCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.多线程/src/ThreadMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.多线程/src/ThreadMethodsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.多线程/src/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.多线程/src/Windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.多线程/src/package-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,12 +76,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="zielu.gittoolbox.app.config.v2" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
-  <component name="RunManager" selected="Application.InterfaceTest">
+  <component name="RunManager" selected="Application.TestCallable">
     <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterfaceTest" />
       <module name="4.多线程" />
@@ -85,41 +89,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Sale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sale" />
       <module name="4.多线程" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestThread" />
+    <configuration name="TestAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAccount" />
       <module name="4.多线程" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadMethodTest" />
+    <configuration name="TestCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestCallable" />
       <module name="4.多线程" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethodsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadMethodsTest" />
+    <configuration name="TestPostMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPostMessage" />
       <module name="4.多线程" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCallable" />
+        <item itemvalue="Application.Sale" />
+        <item itemvalue="Application.TestPostMessage" />
+        <item itemvalue="Application.TestAccount" />
         <item itemvalue="Application.InterfaceTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ThreadMethodsTest" />
-        <item itemvalue="Application.ThreadMethodTest" />
-        <item itemvalue="Application.TestThread" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +206,10 @@
       <workItem from="1618040522369" duration="6811000" />
       <workItem from="1618047638049" duration="1298000" />
       <workItem from="1618062919785" duration="1016000" />
+      <workItem from="1618109695189" duration="11824000" />
+      <workItem from="1618137980211" duration="1056000" />
+      <workItem from="1618139607230" duration="4590000" />
+      <workItem from="1618194110325" duration="5700000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>
