@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="人员调度程序">
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/PostMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.多线程/src/UseCallable.java" afterDir="false" />
+    <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="线程创建的四种方式">
+      <change afterPath="$PROJECT_DIR$/5.常用类/5.常用类.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5.常用类/src/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.多线程/src/ThreadMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.多线程/src/ThreadMethodsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.多线程/src/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/4.多线程/src/Windows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.多线程/src/package-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +77,7 @@
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
-  <component name="RunManager" selected="Application.TestCallable">
-    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfaceTest" />
-      <module name="4.多线程" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestString">
     <configuration name="Sale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sale" />
       <module name="4.多线程" />
@@ -117,26 +106,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestString" />
+      <module name="5.常用类" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestString" />
         <item itemvalue="Application.TestCallable" />
         <item itemvalue="Application.Sale" />
         <item itemvalue="Application.TestPostMessage" />
         <item itemvalue="Application.TestAccount" />
-        <item itemvalue="Application.InterfaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +192,11 @@
       <workItem from="1618109695189" duration="11824000" />
       <workItem from="1618137980211" duration="1056000" />
       <workItem from="1618139607230" duration="4590000" />
-      <workItem from="1618194110325" duration="5700000" />
+      <workItem from="1618194110325" duration="11325000" />
+      <workItem from="1618308828486" duration="1881000" />
+      <workItem from="1618367261015" duration="501000" />
+      <workItem from="1618389943345" duration="9000" />
+      <workItem from="1618399848949" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>
@@ -232,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617544609386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="线程创建的四种方式">
+      <created>1618213103895</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618213103895</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +254,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="exception" />
     <MESSAGE value="人员调度程序" />
-    <option name="LAST_COMMIT_MESSAGE" value="人员调度程序" />
+    <MESSAGE value="线程创建的四种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程创建的四种方式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
