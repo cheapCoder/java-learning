@@ -2,7 +2,7 @@ import javax.sound.midi.Soundbank;
 import java.net.SocketTimeoutException;
 
 interface info {
-    void show();
+    void show() throws Exception;
 }
 
 enum CustomSeason implements info {
@@ -52,7 +52,7 @@ enum CustomSeason implements info {
 //    }
 }
 
-@MyAnnotation("unused")
+@MyAnnotation(" ")
 public class CustomizedEnum {
     public static void main(String[] args) {
 //        System.out.println(CustomSeason.SPRING);

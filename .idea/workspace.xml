@@ -5,17 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="String,StringBuffer,StringBuilder">
-      <change afterPath="$PROJECT_DIR$/5.常用类/src/LocalDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.常用类/src/UsedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. 枚举类与注解/6. 枚举类与注解.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/UseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. 集合/7. 集合.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. 集合/src/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. 集合/src/MyCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. 集合/src/UseMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. 集合/src/UseSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/what.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.常用类/src/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.常用类/src/MyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5.常用类/src/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/5.常用类/src/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/2.面向对象.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/2.面向对象.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Decorate.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Decorate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/EcmDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/EcmDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/EqualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/EqualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Extend.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Extend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Import.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Import.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/InnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Overload.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Overload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. 枚举类与注解/src/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/MyAnnotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,6 +59,7 @@
     <option name="projectConfigVersion" value="3" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
   </component>
@@ -85,24 +99,23 @@
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
-  <component name="RunManager" selected="Application.CustomizedEnum">
-    <configuration name="CustomizedEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomizedEnum" />
-      <module name="6. 枚举类与注解" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\10615\Desktop\myJava\7. 集合\src" />
+      <recent name="C:\Users\10615\Desktop\myJava" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyCollection">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee" />
+      <module name="7. 集合" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyDate" />
-      <module name="5.常用类" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLocalDateTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyLocalDateTime" />
-      <module name="5.常用类" />
+    <configuration name="MyCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyCollection" />
+      <module name="7. 集合" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,6 +123,13 @@
     <configuration name="UseEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UseEnum" />
       <module name="6. 枚举类与注解" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseSet" />
+      <module name="7. 集合" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomizedEnum" />
-        <item itemvalue="Application.UseEnum" />
+        <item itemvalue="Application.MyCollection" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.UseSet" />
         <item itemvalue="Application.UsedClass" />
-        <item itemvalue="Application.MyLocalDateTime" />
-        <item itemvalue="Application.MyDate" />
+        <item itemvalue="Application.UseEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +244,10 @@
       <workItem from="1618643023568" duration="1719000" />
       <workItem from="1618717213662" duration="50000" />
       <workItem from="1618717288942" duration="12795000" />
+      <workItem from="1618796742986" duration="3991000" />
+      <workItem from="1618832087704" duration="4366000" />
+      <workItem from="1618969077369" duration="625000" />
+      <workItem from="1618969740547" duration="16796000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>
@@ -305,7 +329,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/2.面向对象/src/InterfaceTest.java</url>
           <line>73</line>
-          <properties class="MyMethods">
+          <properties class="MyMethods" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
