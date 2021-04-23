@@ -5,30 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="String,StringBuffer,StringBuilder">
-      <change afterPath="$PROJECT_DIR$/7. 集合/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. 集合/src/MyCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. 集合/src/UseMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7. 集合/src/UseSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/what.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. 泛型/8. 泛型.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. 泛型/src/CustomGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. 泛型/src/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8. 泛型/src/UseGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/9. IO流.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/src/UseFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/2.面向对象.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/2.面向对象.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Decorate.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Decorate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/EcmDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/EcmDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/EqualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/EqualTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Extend.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Extend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Import.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Import.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/InnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/JUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Overload.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Overload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.基本/2.面向对象/src/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.面向对象/src/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6. 枚举类与注解/src/MyAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/MyAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. 集合/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/7. 集合/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/what.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +75,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/out/production/9. IO流/UseFile.class" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java资料/2_项目/Project3（开发团队人员调度软件）/3.2-参考实现/最终代码/Project03" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
@@ -105,10 +93,10 @@
       <recent name="C:\Users\10615\Desktop\myJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyCollection">
-    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee" />
-      <module name="7. 集合" />
+  <component name="RunManager" selected="Application.UseFile">
+    <configuration name="CustomGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomGeneric" />
+      <module name="8. 泛型" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,23 +108,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UseEnum" />
-      <module name="6. 枚举类与注解" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="8. 泛型" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UseSet" />
-      <module name="7. 集合" />
+    <configuration name="UseFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseFile" />
+      <module name="9. IO流" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UsedClass" />
-      <module name="5.常用类" />
+    <configuration name="UseGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseGeneric" />
+      <module name="8. 泛型" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseFile" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CustomGeneric" />
+        <item itemvalue="Application.UseGeneric" />
         <item itemvalue="Application.MyCollection" />
-        <item itemvalue="Application.Employee" />
-        <item itemvalue="Application.UseSet" />
-        <item itemvalue="Application.UsedClass" />
-        <item itemvalue="Application.UseEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +235,13 @@
       <workItem from="1618796742986" duration="3991000" />
       <workItem from="1618832087704" duration="4366000" />
       <workItem from="1618969077369" duration="625000" />
-      <workItem from="1618969740547" duration="16796000" />
+      <workItem from="1618969740547" duration="16880000" />
+      <workItem from="1619058329149" duration="13878000" />
+      <workItem from="1619142418755" duration="99000" />
+      <workItem from="1619142541738" duration="37000" />
+      <workItem from="1619142702146" duration="1801000" />
+      <workItem from="1619144547412" duration="4979000" />
+      <workItem from="1619165624625" duration="3144000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>

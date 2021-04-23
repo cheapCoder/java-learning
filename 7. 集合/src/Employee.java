@@ -3,17 +3,17 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class Employee implements Comparable {
+public class Employee implements Comparable<Employee> {
     public static void main(String[] args) {
 //        1).使用comparable接口
 //        TreeSet set = new TreeSet();
 
 
 //        2).使用comparator接口
-        TreeSet set = new TreeSet(new Comparator() {
+        TreeSet set = new TreeSet(new Comparator< >() {
             @Override
-            public int compare(Object o1, Object o2) {
-                if (o1 instanceof Employee && o2 instanceof Employee) {
+            public int compare(Employee o1,Employee o2) {
+//                if (o1 instanceof Employee && o2 instanceof Employee) {
                     Employee castO1 = (Employee) o1;
                     Employee castO2 = (Employee) o2;
                     if (castO1.getBirthday().getYear() != castO2.getBirthday().getYear()) {
@@ -23,9 +23,9 @@ public class Employee implements Comparable {
                     } else {
                         return castO1.getBirthday().getDay() - castO2.getBirthday().getDay();
                     }
-                } else {
-                    throw new RuntimeException("类型转换错误");
-                }
+//                } else {
+//                    throw new RuntimeException("类型转换错误");
+//                }
             }
         });
 
@@ -96,13 +96,13 @@ public class Employee implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        if (o instanceof Employee) {
+    public int compareTo(Employee o) {
+//        if (o instanceof Employee) {
             Employee other = (Employee) o;
             return this.name.compareTo(other.name);
-        } else {
-            throw new RuntimeException("类型转换错误");
-        }
+//        } else {
+//            throw new RuntimeException("类型转换错误");
+//        }
     }
 }
 

@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/5.常用类/5.常用类.iml" filepath="$PROJECT_DIR$/5.常用类/5.常用类.iml" />
       <module fileurl="file://$PROJECT_DIR$/6. 枚举类与注解/6. 枚举类与注解.iml" filepath="$PROJECT_DIR$/6. 枚举类与注解/6. 枚举类与注解.iml" />
       <module fileurl="file://$PROJECT_DIR$/7. 集合/7. 集合.iml" filepath="$PROJECT_DIR$/7. 集合/7. 集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8. 泛型/8. 泛型.iml" filepath="$PROJECT_DIR$/8. 泛型/8. 泛型.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9. IO流/9. IO流.iml" filepath="$PROJECT_DIR$/9. IO流/9. IO流.iml" />
       <module fileurl="file://$PROJECT_DIR$/myJava.iml" filepath="$PROJECT_DIR$/myJava.iml" />
     </modules>
   </component>
