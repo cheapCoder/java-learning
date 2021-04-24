@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="String,StringBuffer,StringBuilder">
-      <change afterPath="$PROJECT_DIR$/8. 泛型/8. 泛型.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. 泛型/src/CustomGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. 泛型/src/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8. 泛型/src/UseGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/9. IO流.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/src/UseFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/copy-dbcp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/copy-stream.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/dbcp-changeCharset.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/dbcp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/src/UseIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9. IO流/stream.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/6. 枚举类与注解/src/CustomizedEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7. 集合/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/7. 集合/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/what.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8. 泛型/src/CustomGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/8. 泛型/src/CustomGeneric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. IO流/9. IO流.iml" beforeDir="false" afterPath="$PROJECT_DIR$/9. IO流/9. IO流.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. IO流/src/UseFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/9. IO流/src/UseFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +48,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/9. IO流/dbcp.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/9. IO流/src/UseFile.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://D:/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collections.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="JUnit" />
-    </enabled-run-configurations>
+    <setting file="file://$PROJECT_DIR$/9. IO流/src/UseIO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/9. IO流/dbcp-changeCharset.txt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1pD8MqpuxJsGYwB0IObHsChHtJk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,7 +82,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
@@ -93,42 +93,7 @@
       <recent name="C:\Users\10615\Desktop\myJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseFile">
-    <configuration name="CustomGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomGeneric" />
-      <module name="8. 泛型" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyCollection" />
-      <module name="7. 集合" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="8. 泛型" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UseFile" />
-      <module name="9. IO流" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UseGeneric" />
-      <module name="8. 泛型" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UseIO.conversionFlow">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -140,13 +105,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseIO.bufferStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="9. IO流" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UseIO" />
+      <option name="METHOD_NAME" value="bufferStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseIO.conversionFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="9. IO流" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UseIO" />
+      <option name="METHOD_NAME" value="conversionFlow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseIO.copyByChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="9. IO流" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UseIO" />
+      <option name="METHOD_NAME" value="copyByChar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseIO.copyByte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="9. IO流" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UseIO" />
+      <option name="METHOD_NAME" value="copyByte" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseIO.copyFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="9. IO流" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UseIO" />
+      <option name="METHOD_NAME" value="copyFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseFile" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.CustomGeneric" />
-        <item itemvalue="Application.UseGeneric" />
-        <item itemvalue="Application.MyCollection" />
+        <item itemvalue="JUnit.UseIO.conversionFlow" />
+        <item itemvalue="JUnit.UseIO.copyByChar" />
+        <item itemvalue="JUnit.UseIO.bufferStream" />
+        <item itemvalue="JUnit.UseIO.copyByte" />
+        <item itemvalue="JUnit.UseIO.copyFile" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +256,14 @@
       <workItem from="1619142541738" duration="37000" />
       <workItem from="1619142702146" duration="1801000" />
       <workItem from="1619144547412" duration="4979000" />
-      <workItem from="1619165624625" duration="3144000" />
+      <workItem from="1619165624625" duration="5514000" />
+      <workItem from="1619171282397" duration="2302000" />
+      <workItem from="1619178383963" duration="1514000" />
+      <workItem from="1619182990957" duration="1578000" />
+      <workItem from="1619184705847" duration="1112000" />
+      <workItem from="1619257296522" duration="3627000" />
+      <workItem from="1619265340973" duration="2038000" />
+      <workItem from="1619269459336" duration="3599000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>

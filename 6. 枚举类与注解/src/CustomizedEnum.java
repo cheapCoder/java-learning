@@ -22,7 +22,7 @@ enum CustomSeason implements info {
         }
     },
     WINTER("winter", "天寒地冻") {
-        public void show() {
+        public void show()throws Exception{
             System.out.println(this.getSeasonName());
         }
     };
@@ -61,7 +61,11 @@ public class CustomizedEnum {
 //            System.out.println(CustomSeason.values()[i].getSeasonDes());
 //        }
 //        System.out.println(CustomSeason.valueOf("WINTER").getSeasonDes());
-        CustomSeason.WINTER.show();
+        try {
+            CustomSeason.WINTER.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         @MyAnnotation("unused")
         int i = 10;
     }

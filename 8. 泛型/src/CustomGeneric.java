@@ -1,11 +1,10 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.*;
 
 public class CustomGeneric<E> {
     public static void main(String[] args) {
-//        Order<String> order = new Order<String>();
+//        Order<tring> order = new Order<String>();
 //        order.setOrderT("liheng");
 //
 //        System.out.println(Order.print("liheng"));
@@ -22,6 +21,8 @@ public class CustomGeneric<E> {
 //        list3.add(null);
 //        System.out.println(list3.get(0));
 
+        Map<String, Integer> map = new HashMap<>();
+        Iterator<Map.Entry<String, Integer>> iterator = map.entrySet().iterator();
 
     }
 }

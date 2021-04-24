@@ -10,7 +10,7 @@ public class Employee implements Comparable<Employee> {
 
 
 //        2).使用comparator接口
-        TreeSet set = new TreeSet(new Comparator< >() {
+        TreeSet set = new TreeSet(new Comparator<Employee>() {
             @Override
             public int compare(Employee o1,Employee o2) {
 //                if (o1 instanceof Employee && o2 instanceof Employee) {
