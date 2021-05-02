@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="String,StringBuffer,StringBuilder">
-      <change afterPath="$PROJECT_DIR$/9. IO流/object.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/src/OtherStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/src/SimulateCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/src/UseRandomAccessFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/stream-copybyTCP.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9. IO流/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/10. 反射.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/dpbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/src/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/src/UseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/src/UseClassLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10. 反射/src/dpbc2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. 新特性/11. 新特性.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. 新特性/src/UseLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. IO流/copy-dbcp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9. IO流/copy-dbcp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. IO流/copy-stream.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9. IO流/dbcp-changeCharset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/9. IO流/dbcp-changeCharset.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
       <list>
         <option value="package-info" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,9 +77,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/out/production/9. IO流/UseFile.class" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java资料/2_项目/Project3（开发团队人员调度软件）/3.2-参考实现/最终代码/Project03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10. 反射/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -86,57 +88,67 @@
     <selection>jxr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\10615\Desktop\myJava\10. 反射\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\10615\Desktop\myJava\7. 集合\src" />
       <recent name="C:\Users\10615\Desktop\myJava" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimulateCS.client">
-    <configuration name="SimulateCS.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="9. IO流" />
+  <component name="RunManager" selected="应用程序.DynamicProxy">
+    <configuration name="DynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProxy" />
+      <module name="10. 反射" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Person" />
+      <module name="10. 反射" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseClass.getPersonInstructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="10. 反射" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimulateCS" />
-      <option name="METHOD_NAME" value="client" />
+      <option name="MAIN_CLASS_NAME" value="UseClass" />
+      <option name="METHOD_NAME" value="getPersonInstructure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimulateCS.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="9. IO流" />
+    <configuration name="UseClass.invokeInstructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="10. 反射" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimulateCS" />
-      <option name="METHOD_NAME" value="server" />
+      <option name="MAIN_CLASS_NAME" value="UseClass" />
+      <option name="METHOD_NAME" value="invokeInstructure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseRandomAccessFile.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="9. IO流" />
+    <configuration name="UseClass.newInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="10. 反射" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UseRandomAccessFile" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseRandomAccessFile.testCover" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="9. IO流" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UseRandomAccessFile" />
-      <option name="METHOD_NAME" value="testCover" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseRandomAccessFile.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="9. IO流" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UseRandomAccessFile" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="MAIN_CLASS_NAME" value="UseClass" />
+      <option name="METHOD_NAME" value="newInstance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimulateCS.client" />
-        <item itemvalue="JUnit.SimulateCS.server" />
-        <item itemvalue="JUnit.UseRandomAccessFile.testInsert" />
-        <item itemvalue="JUnit.UseRandomAccessFile.testCover" />
-        <item itemvalue="JUnit.UseRandomAccessFile.test" />
+        <item itemvalue="应用程序.DynamicProxy" />
+        <item itemvalue="应用程序.Person" />
+        <item itemvalue="JUnit.UseClass.invokeInstructure" />
+        <item itemvalue="JUnit.UseClass.getPersonInstructure" />
+        <item itemvalue="JUnit.UseClass.newInstance" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +270,8 @@
       <workItem from="1619783064306" duration="1320000" />
       <workItem from="1619833775793" duration="6723000" />
       <workItem from="1619870358831" duration="28000" />
+      <workItem from="1619870470081" duration="6264000" />
+      <workItem from="1619919160200" duration="20155000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>
