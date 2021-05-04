@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8709899f-dbfd-4273-8214-93bd0b55a945" name="Default Changelist" comment="String,StringBuffer,StringBuilder">
-      <change afterPath="$PROJECT_DIR$/10. 反射/10. 反射.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. 反射/dpbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. 反射/src/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. 反射/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. 反射/src/UseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. 反射/src/UseClassLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10. 反射/src/dpbc2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11. 新特性/11. 新特性.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11. 新特性/src/UseLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. 新特性/src/UseOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11. 新特性/src/UseStreamAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. 新特性/11. 新特性.iml" beforeDir="false" afterPath="$PROJECT_DIR$/11. 新特性/11. 新特性.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11. 新特性/src/UseLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/11. 新特性/src/UseLambda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -64,6 +58,7 @@
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -82,7 +77,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
@@ -96,59 +91,49 @@
       <recent name="C:\Users\10615\Desktop\myJava" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.DynamicProxy">
-    <configuration name="DynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProxy" />
-      <module name="10. 反射" />
+  <component name="RunManager" selected="JUnit.UseStreamAPI.test1">
+    <configuration name="UseOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UseOptional" />
+      <module name="11. 新特性" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Person" />
-      <module name="10. 反射" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseClass.getPersonInstructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="10. 反射" />
+    <configuration name="UseLambda.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11. 新特性" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UseClass" />
-      <option name="METHOD_NAME" value="getPersonInstructure" />
+      <option name="MAIN_CLASS_NAME" value="UseLambda" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseClass.invokeInstructure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="10. 反射" />
+    <configuration name="UseLambda.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11. 新特性" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UseClass" />
-      <option name="METHOD_NAME" value="invokeInstructure" />
+      <option name="MAIN_CLASS_NAME" value="UseLambda" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseClass.newInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="10. 反射" />
+    <configuration name="UseLambda.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11. 新特性" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UseClass" />
-      <option name="METHOD_NAME" value="newInstance" />
+      <option name="MAIN_CLASS_NAME" value="UseLambda" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseStreamAPI.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="11. 新特性" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UseStreamAPI" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.DynamicProxy" />
-        <item itemvalue="应用程序.Person" />
-        <item itemvalue="JUnit.UseClass.invokeInstructure" />
-        <item itemvalue="JUnit.UseClass.getPersonInstructure" />
-        <item itemvalue="JUnit.UseClass.newInstance" />
+        <item itemvalue="JUnit.UseStreamAPI.test1" />
+        <item itemvalue="应用程序.UseOptional" />
+        <item itemvalue="JUnit.UseLambda.test5" />
+        <item itemvalue="JUnit.UseLambda.test4" />
+        <item itemvalue="JUnit.UseLambda.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +257,16 @@
       <workItem from="1619870358831" duration="28000" />
       <workItem from="1619870470081" duration="6264000" />
       <workItem from="1619919160200" duration="20155000" />
+      <workItem from="1620018110285" duration="2211000" />
+      <workItem from="1620045149792" duration="114000" />
+      <workItem from="1620045303466" duration="1283000" />
+      <workItem from="1620046737121" duration="3032000" />
+      <workItem from="1620050509874" duration="1610000" />
+      <workItem from="1620091781640" duration="3064000" />
+      <workItem from="1620095878462" duration="1273000" />
+      <workItem from="1620107259772" duration="5360000" />
+      <workItem from="1620116274945" duration="3230000" />
+      <workItem from="1620132371788" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="exception">
       <created>1617427163882</created>
@@ -350,14 +345,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/2.面向对象/src/InterfaceTest.java</url>
-          <line>73</line>
-          <properties class="MyMethods" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="3" />
